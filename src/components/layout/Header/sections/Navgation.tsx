@@ -31,7 +31,7 @@ export default function Navigation() {
                     return (
                         <li key={item.id} className="relative group">
                             <Link href={item.href} className={`text-[12px] font-medium uppercase tracking-[0.2em] transition-all duration-300 
-                            ${isActive ? "text-blue" : "text-white/50 group-hover:text-white"}`}>
+                            ${isActive ? "text-blue" : "text-white group-hover:text-white"}`}>
                                 {item.label}
                             </Link>
                             <span className={`absolute -bottom-1 left-0 h-px bg-blue transition-all duration-300 
