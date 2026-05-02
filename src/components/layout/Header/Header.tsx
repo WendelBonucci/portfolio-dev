@@ -42,9 +42,7 @@ export default function Header() {
 
     return (
         <header className={`fixed top-0 w-full h-20 z-50 transition-all duration-300 
-            ${!isHome ? "bg-background backdrop-blur-md shadow-lg" : ""}
-             ${!isHome && scrolled ? "bg-background backdrop-blur-md shadow-lg" : ""}
-             ${isHome && !scrolled ? "bg-background" : ""}`}>
+            ${isHome ? scrolled ? "bg-background/70 backdrop-blur-md shadow-lg" : "bg-transparent" : "bg-background/70 backdrop-blur-md shadow-lg"}`}>
             <section className="max-w-7xl mx-auto flex items-center justify-between h-full px-6 w-full">
                 <Logo />
                 {!isMobile && <Navgation />}

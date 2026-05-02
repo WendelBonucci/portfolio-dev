@@ -30,12 +30,7 @@ export default function ContentInitial() {
                     </div>
                 </div>
 
-                <div
-                    className="flex flex-col items-center md:items-start text-center md:text-left"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                    data-aos-duration="1000"
-                >
+                <div className="flex flex-col items-center md:items-start text-center md:text-left" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <h1 className="text-5xl md:text-8xl font-bold text-white leading-tight mb-4 tracking-tighter">
                         Wendell <br />
                         <span className="text-blue">Bonucci</span>
@@ -48,9 +43,7 @@ export default function ContentInitial() {
 
                     <Link href="#sobre" className="group relative inline-flex items-center justify-center px-10 py-4 font-bold text-white border border-white/20 overflow-hidden transition-all duration-300 hover:border-blue">
                         <span className="absolute inset-y-0 left-0 w-0 bg-blue transition-all duration-300 group-hover:w-full"></span>
-                        <span className="relative z-10 group-hover:text-black transition-colors duration-300 uppercase tracking-widest text-sm">
-                            Saiba Mais
-                        </span>
+                        <span className="relative z-10 group-hover:text-black transition-colors duration-300 uppercase tracking-widest text-sm">Saiba Mais</span>
                     </Link>
                 </div>
             </section>

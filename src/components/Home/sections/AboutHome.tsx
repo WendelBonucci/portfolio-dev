@@ -1,12 +1,19 @@
 "use client"
+import { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, } from "swiper/modules";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 
 export default function AboutHome() {
+    useEffect(() => {
+        Aos.init({ duration: 1000, easing: "ease-out-quart", once: true });
+    }, []);
+
     type ItemType = {
         id: number;
         title: string;
@@ -22,7 +29,6 @@ export default function AboutHome() {
     return (
         <section id="sobre" className="w-full py-24 bg-background overflow-hidden">
             <div className="max-w-5xl mx-auto px-6">
-
                 <div className="mb-12" data-aos="fade-up">
                     <span className="text-blue text-xs uppercase tracking-[0.4em] font-bold">Um pouco...</span>
                     <h2 className="text-white text-4xl md:text-5xl font-bold mt-2">Sobre mim</h2>
@@ -39,17 +45,12 @@ export default function AboutHome() {
                         speed={800}
                         autoplay={{ delay: 6000, disableOnInteraction: false }}
                         pagination={{ clickable: true, dynamicBullets: true }}
-                        className="pb-12 mySwiper"
-                    >
+                        className="pb-12 mySwiper">
                         {About.map((item) => (
                             <SwiperSlide key={item.id} className="bg-transparent">
                                 <div className="flex flex-col gap-6 py-8">
-                                    <h3 className="text-blue text-2xl font-semibold tracking-tight">
-                                        {item.title}
-                                    </h3>
-                                    <p className="text-white/70 text-lg md:text-xl leading-relaxed font-light">
-                                        {item.text}
-                                    </p>
+                                    <h3 className="text-blue text-2xl font-semibold tracking-tight">{item.title}</h3>
+                                    <p className="text-white/70 text-lg md:text-xl leading-relaxed font-light">{item.text}</p>
                                 </div>
                             </SwiperSlide>
                         ))}
