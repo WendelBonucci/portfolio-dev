@@ -1,7 +1,15 @@
-import React from 'react'
+import Image from "next/image"
+import Link from "next/link"
 
 export default function Logo() {
     return (
-        <div>L</div>
+        <section className="">
+            <Image
+                height={150}
+                width={150}
+                alt="logo"
+                src='/logoHeader.png'
+            />
+        </section>
     )
 }

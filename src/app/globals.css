@@ -11,6 +11,8 @@
 
 @theme inline {
  --color-background: #050505;
+ --color-black: #0D0D0D;
+ --color-white: #FFFFFF;
  --color-blue: #23B7D9;
  --color-green: #1FA65A;
  --color-beige: #F2E2CE;

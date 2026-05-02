@@ -3,7 +3,7 @@ import { useEffect, useState } from "react"
 import { usePathname } from "next/navigation"
 
 //components
-import Logo from "./sections/logo"
+import Logo from "./sections/Logo"
 import Navgation from "./sections/Navgation"
 import SideBar from "./sections/SideBar"
 
@@ -45,8 +45,8 @@ export default function Header() {
             ${!isHome ? "bg-background backdrop-blur-md shadow-lg" : ""}
              ${!isHome && scrolled ? "bg-background backdrop-blur-md shadow-lg" : ""}
              ${isHome && !scrolled ? "bg-transparent" : ""}`}>
-            <Logo />
-            <section className="">
+            <section className="max-w-7xl mx-auto flex items-center justify-between h-full px-6 w-full">
+                <Logo />
                 {!isMobile && <Navgation />}
                 {isMobile && <SideBar />}
             </section>
