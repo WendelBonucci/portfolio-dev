@@ -2,6 +2,7 @@ import ContentInitial from "./sections/ContentInitial"
 import AboutHome from "./sections/AboutHome"
 import ProjectsHome from "./sections/ProjectsHome"
 import SkillsHome from "./sections/SkillsHome"
+import Trajectory from "./sections/Trajectory"
 
 export default function HomeMain() {
     return (
@@ -10,6 +11,7 @@ export default function HomeMain() {
             <AboutHome />
             <ProjectsHome />
             <SkillsHome />
+            <Trajectory />
         </main>
     )
 }
