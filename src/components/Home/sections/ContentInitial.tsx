@@ -11,7 +11,7 @@ export default function ContentInitial() {
     }, []);
 
     return (
-        <section className="relative w-full min-h-screen pt-34 md:pt-32 bg-background flex items-center justify-center overflow-hidden">
+        <section className="relative w-full min-h-screen pt-31 md:pt-32 bg-background flex items-center justify-center overflow-hidden">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
                 w-75 h-75 md:w-125 md:h-125
                 bg-blue/5 rounded-full blur-[120px] pointer-events-none">

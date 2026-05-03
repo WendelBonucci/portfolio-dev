@@ -80,7 +80,7 @@ export default function Sidebar() {
                                         return (
                                             <Link key={link.id} href={link.href} onClick={closeMenu}
                                                 className={`px-4 py-2.5 rounded-lg text-sm font-medium tracking-wide border transition-all duration-200 ${active
-                                                    ? "bg-blue-500/15 text-white border-blue-500/30"
+                                                    ? "bg-white-500/15 text-white border-blue-500/30"
                                                     : "text-white/70 border-transparent hover:text-white hover:bg-blue-500/10 hover:border-blue-500/20"
                                                     }`}>{link.label}</Link>
                                         );
