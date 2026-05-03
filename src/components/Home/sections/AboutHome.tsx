@@ -27,7 +27,7 @@ export default function AboutHome() {
     ]
 
     return (
-        <section id="sobre" className="w-full py-24 bg-background overflow-hidden">
+        <section id="about" className="w-full py-24 bg-background overflow-hidden">
             <div className="max-w-5xl mx-auto px-6">
                 <div className="mb-12" data-aos="fade-up">
                     <span className="text-blue text-xs uppercase tracking-[0.4em] font-bold">Um pouco...</span>

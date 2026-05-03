@@ -43,7 +43,7 @@ export default function Trajectory() {
     ]
 
     return (
-        <section id="trajetoria" className="w-full py-24 bg-background overflow-hidden">
+        <section id="trajectory" className="w-full py-24 bg-background overflow-hidden">
             <div className="max-w-7xl mx-auto px-6">
 
                 <div className="text-center mb-20" data-aos="fade-up">

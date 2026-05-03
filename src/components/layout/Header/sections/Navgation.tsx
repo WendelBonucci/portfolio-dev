@@ -12,10 +12,10 @@ export default function Navigation() {
 
     const links: ItemType[] = [
         { id: 1, label: 'Home', href: '/' },
-        { id: 2, label: 'Sobre', href: '#sobre' },
-        { id: 3, label: 'Projetos', href: '#projetos' },
+        { id: 2, label: 'Sobre', href: '#about' },
+        { id: 3, label: 'Projetos', href: '#projects' },
         { id: 4, label: 'Skills', href: '#skills' },
-        { id: 5, label: 'Trajetória', href: '#trajetoria' },
+        { id: 5, label: 'Trajetória', href: '#trajectory' },
     ];
 
     const buttons: ItemType[] = [

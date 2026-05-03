@@ -55,7 +55,7 @@ export default function ProjectsHome() {
     ]
 
     return (
-        <section id="projetos" className="w-full py-20 bg-background">
+        <section id="projects" className="w-full py-20 bg-background">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
                     <div data-aos="fade-right">

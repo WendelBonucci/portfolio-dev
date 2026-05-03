@@ -1,6 +1,6 @@
 "use client"
 import Link from "next/link";
-import { FaLinkedin, FaGithub, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram, /* FaWhatsapp */ } from "react-icons/fa";
 import { FiArrowUp } from "react-icons/fi";
 
 export default function Footer() {
@@ -12,17 +12,17 @@ export default function Footer() {
 
     const linksFooter: ItemType[] = [
         { id: 1, label: 'Home', href: '/' },
-        { id: 2, label: 'Sobre', href: '#sobre' },
-        { id: 3, label: 'Projetos', href: '#projetos' },
+        { id: 2, label: 'Sobre', href: '#about' },
+        { id: 3, label: 'Projetos', href: '#projects' },
         { id: 4, label: 'Skills', href: '#skills' },
-        { id: 5, label: 'Trajetória', href: '#trajetoria' },
+        { id: 5, label: 'Trajetória', href: '#trajectory' },
     ];
 
     const socialLinks = [
-        { id: 1, icon: <FaLinkedin />, href: '#' },
-        { id: 2, icon: <FaGithub />, href: '#' },
-        { id: 3, icon: <FaInstagram />, href: '#' },
-        { id: 4, icon: <FaWhatsapp />, href: '#' },
+        { id: 1, icon: <FaLinkedin />, href: 'https://www.linkedin.com/in/wendell-bonucci-8b2aa237a/' },
+        { id: 2, icon: <FaGithub />, href: 'https://github.com/WendelBonucci' },
+        { id: 3, icon: <FaInstagram />, href: 'https://www.instagram.com/srrwende.ll/' },
+        /* { id: 4, icon: <FaWhatsapp />, href: '#' }, */
     ];
 
     return (

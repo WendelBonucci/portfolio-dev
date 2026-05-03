@@ -39,10 +39,10 @@ export default function Sidebar() {
 
     const mainLinks: ItemType[] = [
         { id: 1, label: "Home", href: "/" },
-        { id: 2, label: "Sobre", href: "/" },
-        { id: 3, label: "Projetos", href: "/" },
-        { id: 4, label: "Skills", href: "/" },
-        { id: 5, label: "Trajetória", href: "/" },
+        { id: 2, label: "Sobre", href: "#about" },
+        { id: 3, label: "Projetos", href: "#projects" },
+        { id: 4, label: "Skills", href: "#skills" },
+        { id: 5, label: "Trajetória", href: "#trajectory" },
     ];
 
     const [mounted, setMounted] = useState(false);
