@@ -51,7 +51,7 @@ export default function ContentInitial() {
                         <p className="text-white/60 text-sm sm:text-base md:text-xl font-light tracking-[0.15em] uppercase">Engenheiro de Software || FullStack</p>
                     </div>
 
-                    <Link href="#sobre" className="group relative inline-flex items-center justify-center px-6 sm:px-8 md:px-10 py-3 sm:py-4 
+                    <Link href="#about" className="group relative inline-flex items-center justify-center px-6 sm:px-8 md:px-10 py-3 sm:py-4 
                         font-bold text-white border border-white/20 overflow-hidden transition-all duration-300 hover:border-blue">
                         <span className="absolute inset-y-0 left-0 w-0 bg-blue 
                             transition-all duration-300 group-hover:w-full">
