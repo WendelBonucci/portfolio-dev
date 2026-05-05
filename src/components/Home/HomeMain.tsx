@@ -7,7 +7,7 @@ import LoadingScreen from "../UI/Loading"
 
 export default function HomeMain() {
     return (
-        <main className='w-full h-full flex flex-col'>
+        <main className='w-full h-full flex flex-col overflow-hidden'>
             <ContentInitial />
             <AboutHome />
             <ProjectsHome />
