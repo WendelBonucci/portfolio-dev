@@ -52,6 +52,14 @@ export default function ProjectsHome() {
             image: "/checklist.png",
             tech: "React, CSS Modules",
         },
+        {
+            id: 6,
+            title: "Task Manager ",
+            description: "Página de apresentação de um sistema",
+            link: "https://taskmanager-page.vercel.app/",
+            image: "/taskmanager.png",
+            tech: "Next.js, TypeScript, Tailwind CSS, FireBase",
+        },
     ]
 
     return (
