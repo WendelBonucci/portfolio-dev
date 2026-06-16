@@ -57,7 +57,15 @@ export default function ProjectsHome() {
             title: "Task Manager ",
             description: "Página de apresentação de um sistema",
             link: "https://taskmanager-page.vercel.app/",
-            image: "/taskmanager.png",
+            image: "/imagesProjects/taskmanager.png",
+            tech: "Next.js, TypeScript, Tailwind CSS, FireBase",
+        },
+        {
+            id: 7,
+            title: "E-commerce - Confeitaria ",
+            description: "Site desenvolvido para uma confeitaria",
+            link:"https://cheiva-cake-s.vercel.app/",
+            image: "/imagesProjects/cheivacakes.png",
             tech: "Next.js, TypeScript, Tailwind CSS, FireBase",
         },
     ]
