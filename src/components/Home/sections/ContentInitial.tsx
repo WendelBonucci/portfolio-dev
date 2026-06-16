@@ -42,7 +42,7 @@ export default function ContentInitial() {
                 <div className="flex flex-col items-center md:items-start text-center md:text-left" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl 
                         font-bold text-white leading-tight mb-4 tracking-tighter">
-                        Wendell <br />
+                        Wendell <br />  
                         <span className="text-blue">Bonucci</span>
                     </h1>
 
