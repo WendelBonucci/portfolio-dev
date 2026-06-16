@@ -19,7 +19,7 @@ export default function Navigation() {
     ];
 
     const buttons: ItemType[] = [
-        { id: 1, label: 'Contato', href: '#contato' },
+        { id: 1, label: 'Contato', href: '/Contact' },
         { id: 2, label: 'EN', href: '/en' },
     ];
 
