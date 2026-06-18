@@ -42,7 +42,7 @@ export default function ContentInitial() {
                 <div className="flex flex-col items-center md:items-start text-center md:text-left" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
                     <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl 
                         font-bold text-white leading-tight mb-4 tracking-tighter">
-                        Wendell <br />  
+                        Wendell <br />
                         <span className="text-blue">Bonucci</span>
                     </h1>
 
@@ -51,14 +51,22 @@ export default function ContentInitial() {
                         <p className="text-white/60 text-sm sm:text-base md:text-xl font-light tracking-[0.15em] uppercase">Engenheiro de Software || FullStack</p>
                     </div>
 
-                    <Link href="#about" className="group relative inline-flex items-center justify-center px-6 sm:px-8 md:px-10 py-3 sm:py-4 
-                        font-bold text-white border border-white/20 overflow-hidden transition-all duration-300 hover:border-blue">
-                        <span className="absolute inset-y-0 left-0 w-0 bg-blue 
-                            transition-all duration-300 group-hover:w-full">
-                        </span>
-
-                        <span className="relative z-10 group-hover:text-black transition-colors duration-300 uppercase tracking-widest text-sm">Saiba Mais</span>
-                    </Link>
+                    <div className="flex items-center gap-2">
+                        <Link href="#about" className="group relative inline-flex items-center justify-center px-6 sm:px-8 md:px-10 py-3 sm:py-4
+                            font-bold text-white border border-white/20 overflow-hidden transition-all duration-300 hover:border-blue">
+                            <span className="absolute inset-y-0 left-0 w-0 bg-blue
+                                transition-all duration-300 group-hover:w-full">
+                            </span>
+                            <span className="relative z-10 group-hover:text-black transition-colors duration-300 uppercase tracking-widest text-sm">Saiba Mais</span>
+                        </Link>
+                        <Link href="/file/WendellOliveira.pdf" download className="group relative inline-flex items-center justify-center px-6 sm:px-8 md:px-10 py-3 sm:py-4
+                            font-bold text-white border border-white/20 overflow-hidden transition-all duration-300 hover:border-blue">
+                            <span className="absolute inset-y-0 left-0 w-0 bg-blue
+                                transition-all duration-300 group-hover:w-full">
+                            </span>
+                            <span className="relative z-10 group-hover:text-black transition-colors duration-300 uppercase tracking-widest text-sm">Curriculo</span>
+                        </Link>
+                    </div>
                 </div>
             </section>
         </section>

@@ -17,7 +17,7 @@ export default function ProjectsHome() {
             title: "NextSolve",
             description: "Landing Page para empresa de Tecnologia",
             link: "https://www.nextsolve.com.br/",
-            image: "/nextsolve.png",
+            image: "/imagesProjects/nextsolve.png",
             tech: "Next.js, TypeScript, Tailwind CSS",
         },
         {
@@ -25,7 +25,7 @@ export default function ProjectsHome() {
             title: "Oticas Visicorp",
             description: "Site Institucional para setor óptico",
             link: "https://www.visiocorp.com.br/",
-            image: "/visio.png",
+            image: "/imagesProjects/visio.png",
             tech: "Next.js, Javascript, Tailwind CSS",
         },
         {
@@ -33,7 +33,7 @@ export default function ProjectsHome() {
             title: "Medalhas Brasil",
             description: "E-commerce institucional de premiações",
             link: "https://www.medalhasbrasil.com/",
-            image: "/medal.png",
+            image: "/imagesProjects/medal.png",
             tech: "Next.js, Javascript, Tailwind CSS",
         },
         {
@@ -41,7 +41,7 @@ export default function ProjectsHome() {
             title: "Consultoria Lareska",
             description: "Portfólio para Personal Trainer",
             link: "https://consultoria-ls.vercel.app/",
-            image: "/consProj.png",
+            image: "/imagesProjects/consProj.png",
             tech: "Next.js, Javascript, CSS Modules",
         },
         {
@@ -49,7 +49,7 @@ export default function ProjectsHome() {
             title: "Checklist",
             description: "Projeto para testar habilidades",
             link: "https://checklist-ten-chi.vercel.app/",
-            image: "/checklist.png",
+            image: "/imagesProjects/checklist.png",
             tech: "React, CSS Modules",
         },
         {
